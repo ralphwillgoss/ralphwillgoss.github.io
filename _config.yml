@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-name: Ralph Willgoss
+name: Load "BLOG", 8, 1 - Ralph Willgoss
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
