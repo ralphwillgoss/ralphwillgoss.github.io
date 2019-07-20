@@ -4,7 +4,7 @@ title: "Error installing .Net 1.1 'Error: internal error 2709 feature GUID for u
 date: 2006-12-17
 ---
 
-I recently rebuilt a dev machine and was trying to install .Net 1.1 and got the following error:
+I recently rebuilt a dev machine and was trying to install .Net 1.1 and got the following error:<br/>
 ```Error: internal error 2709 feature GUID for use by Cartman```
 
 It apparently happens when something goes wrong or you have an aborted installation of .Net 1.1 framework.
