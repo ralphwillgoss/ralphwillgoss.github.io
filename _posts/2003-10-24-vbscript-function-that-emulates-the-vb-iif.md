@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "A VBScript Function that Emulates the VB IIf()"
-date: 2003-10-2003
+date: 2003-10-24
 ---
 
 If you're still using classic ASP, this is a simple little VBScript function that emulates the VB IIf().<br/>
 It helps in intializing and making your code look a little cleaner.
 
-```
+```visual basic
 Language: VBScript
 
 '# asp alternative to the inbuilt VB function IIf
@@ -24,4 +24,4 @@ dim UserID
 UserID = iif(request("userid") = "", -1, request("userid"))
 ```
 
-Originally posted on at http://www.devx.com/DevX/Tip/17670
+Originally posted on [DevX](http://www.devx.com/DevX/Tip/17670)

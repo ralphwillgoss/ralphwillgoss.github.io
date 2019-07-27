@@ -1,4 +1,10 @@
 theme: jekyll-theme-cayman
 name: Load "BLOG", 8, 1 - Ralph Willgoss
+title: Load "BLOG", 8, 1 - Ralph Willgoss
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+        css_class: 'highlight'
 permalink: /blog/:year/:month/:day/:title
