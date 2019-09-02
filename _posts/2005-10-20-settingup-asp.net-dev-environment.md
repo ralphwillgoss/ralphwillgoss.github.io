@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "Setting up an ASP.NET Website Development environment using Visual Studio .NET, Subversion and Windows XP"
 date: 2005-10-20
+categories:
+  - geekswithblogs
+tags:
+  - .net asp.net iis windows-xp apache subversion tortisesvn visual-studio
 ---
 
 I've just completed a small ebook/tutorial titled [Setting up an ASP.NET Website Development environment using Visual Studio .NET, Subversion and Windows XP|https://www.codeproject.com/Articles/15271/Setting-up-an-ASP-NET-website-development-environm].

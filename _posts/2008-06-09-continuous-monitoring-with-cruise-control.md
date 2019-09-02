@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "Continuous Monitoring with CruiseControl.Net"
 date: 2008-06-09
+categories:
+  - geekswithblogs
+tags:
+  - .net cruise-control
 ---
 
 I heard [Owen Rogers on HanselMinutes](https://www.hanselminutes.com/113/beyond-continuous-integration-continuous-monitoring-with-owen-rogers) and thought I would create a tutorial to show how easy it is to setup CruiseControl.Net as a continuous monitoring server.

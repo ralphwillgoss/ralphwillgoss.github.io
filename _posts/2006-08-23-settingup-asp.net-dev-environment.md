@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Setting up an ASP.NET Website Development environment using Visual Studio .NET, Subversion and Windows XP"
 date: 2006-08-23
+categories:
+  - geekswithblogs
 ---
-
-Hi,
 
 I've now moved the Development environment HowTo to the Code Project. The old site will cease to exist in a few days.
 

@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "When debugging using Visual Studio 2010 the aspnet_wp.exe is greyed out"
 date: 2010-12-21
+categories:
+  - geekswithblogs
+tags:
+  - asp.net visual-studio
 ---
 
 When debugging with Visual Studio 2010, you may find that you can't attach to the aspnet_wp.exe process as its greyed out.

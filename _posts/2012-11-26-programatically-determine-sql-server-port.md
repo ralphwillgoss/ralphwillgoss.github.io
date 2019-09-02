@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "How do I programatically determine which port a SQL Server is running on?"
 date: 2012-11-26
+categories:
+  - geekswithblogs
+tags:
+  - sql
 ---
 
 How do I programatically determine which port a SQL Server is running on?

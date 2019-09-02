@@ -1,16 +1,17 @@
 ---
-layout: post
 title: "A VBScript Function that Emulates the VB IIf()"
 date: 2003-10-24
+categories:
+  - geekswithblogs
+tags:
+  - asp
 ---
 
 If you're still using classic ASP, this is a simple little VBScript function that emulates the VB IIf().<br/>
 It helps in intializing and making your code look a little cleaner.
 
-```visual basic
-Language: VBScript
-
-'# asp alternative to the inbuilt VB function IIf
+```visualbasic
+'# classic asp alternative to the inbuilt VB function IIf
 function iif(boolEval, trueStr, falseStr)
   if boolEval then
     iif = trueStr

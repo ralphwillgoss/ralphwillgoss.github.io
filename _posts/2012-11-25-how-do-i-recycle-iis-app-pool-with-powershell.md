@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "How do I recycle an IIS App pool with Powershell?"
 date: 2012-11-25
+categories:
+  - geekswithblogs
+tags:
+  - powershell
 ---
 
 Reference implementation of a Powershell script to recycle app pools, in response to Rick's post:

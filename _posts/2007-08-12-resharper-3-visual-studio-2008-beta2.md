@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "Resharper 3.0.x not recognised under Visual Studio 2008 Beta 2"
 date: 2007-08-12
+categories:
+  - geekswithblogs
+tags:
+  - resharper visual-studio
 ---
 
 If you install Resharper 3.0.x and discover that Visual Studio 2008 Beta 2 hasn't recognised it, you need to run the install again with a few special command line arguments:

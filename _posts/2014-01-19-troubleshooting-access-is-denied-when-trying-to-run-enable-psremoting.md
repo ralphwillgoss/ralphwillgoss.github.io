@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "Troubleshooting 'Access is denied' when trying to run Enable-PSRemoting"
 date: 2014-01-19
+categories:
+  - geekswithblogs
+tags:
+  - powershell
 ---
 
 I recently had to trouble shoot why I was getting an "Access denied error" when trying to enable PSRemoting on hosted version of Windows 2008 R2.
