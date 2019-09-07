@@ -117,3 +117,8 @@ tag_archive:
 year_archive:
   type: liquid
   path: /year-archive/
+
+analytics:
+  provider               : "google"
+  google:
+    tracking_id          : UA-90282-1
