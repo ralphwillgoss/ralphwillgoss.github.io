@@ -18,9 +18,7 @@ This includes:
     2. Setting the WinRM service type to auto start
     3. Creating a listener to accept requests on any IP address
     4. Enabling firewall exception for WS-Management traffic (for http only).
-```
 
-```
 Access is denied. + CategoryInfo : InvalidOperation: (:) [Set-WSManQuickConfig],
 InvalidOperationException + FullyQualifiedErrorId : 
 WsManError,Microsoft.WSMan.Management.SetWSManQuickConfigCommand
