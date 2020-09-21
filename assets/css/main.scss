@@ -26,11 +26,21 @@ html {
   }
 
 
-h1, h2 {
+h1 {
     font-size: 1.2em;
 }
 
+h2, .archive__subtitle {
+  font-weight: bold;
+}
+
+h2, .archive__item {
+  font-size: 1.0em;
+  font-weight: normal;
+}
+
 a, a:visited {
+  text-decoration: none;
   color: black
 }
 
