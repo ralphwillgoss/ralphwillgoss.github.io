@@ -27,13 +27,12 @@ repository: "ralphwillgoss/ralphwillgoss.github.io"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+remote_theme: "mmistakes/minimal-mistakes@4.20.2"
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts: 
     block:
-      line_numbers: true
-      start_line: 1
+      line_numbers: false
 github: [metadata] # Added this to avoid the "No GitHub API authentication could be found. Some fields may be missing or have incorrect data." warning when starting Jekyll.
 
 # Outputting

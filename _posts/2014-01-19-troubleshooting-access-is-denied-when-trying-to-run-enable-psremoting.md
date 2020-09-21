@@ -10,7 +10,7 @@ tags:
 I recently had to trouble shoot why I was getting an "Access denied error" when trying to enable PSRemoting on hosted version of Windows 2008 R2.
 
 The error received looked something like:
-```
+```powershell
 WinRM Quick Configuration Running command "Set-WSManQuickConfig" to enable
 this machine for remote management through WinRM service
 This includes:
