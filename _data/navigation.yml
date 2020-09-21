@@ -2,3 +2,6 @@ main:
     - title: "Resume"
       url: https://www.linkedin.com/in/ralphwillgoss
       description: "The resume of Ralph Willgoss"
+    - title: "RSS"
+      url: https://ralphwillgoss.github.io/feed.xml
+      description: "RSS feed"
