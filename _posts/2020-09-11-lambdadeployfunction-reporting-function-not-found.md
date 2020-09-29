@@ -27,4 +27,4 @@ to perform: lambda:GetFunction on resource: arn:aws:lambda:<path>:function:my-fu
 ```
 
 So I actually had a permissions error, if we looks at the code we can see that the function [testForFunction](https://github.com/aws/aws-toolkit-azure-devops/blob/5c3ea378838f82e7aa81842404d944138f033ed3/Tasks/LambdaDeployFunction/TaskOperations.ts#L212) surpresses all exceptions.
-This issue has been raised on [aws-toolkit-azure-devops on github](https://github.com/aws/aws-toolkit-azure-devops/issues/371)
+This issue has been raised on [aws-toolkit-azure-devops on github](https://github.com/aws/aws-toolkit-azure-devops/issues/371).
