@@ -25,4 +25,6 @@ dim UserID
 UserID = iif(request("userid") = "", -1, request("userid"))
 ```
 
-Originally posted on [DevX](http://www.devx.com/DevX/Tip/17670)
+{: .notice--primary}
+<strong>Originally posted on:</strong>  
+[DevX](http://www.devx.com/DevX/Tip/17670){:target="_blank"}

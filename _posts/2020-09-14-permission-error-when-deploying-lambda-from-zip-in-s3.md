@@ -38,5 +38,6 @@ The solution I used was to use `python`, its simple and by default sets the corr
           zf.write('inspector.py')
 ```
 
-References:  
-[https://stackoverflow.com/questions/46076543/permission-denied-after-uploading-aws-lambda-python-zip-from-s3](https://stackoverflow.com/questions/46076543/permission-denied-after-uploading-aws-lambda-python-zip-from-s3)
+{: .notice--primary}
+<strong>References:</strong>  
+<https://stackoverflow.com/questions/46076543/permission-denied-after-uploading-aws-lambda-python-zip-from-s3>{:target="_blank"}

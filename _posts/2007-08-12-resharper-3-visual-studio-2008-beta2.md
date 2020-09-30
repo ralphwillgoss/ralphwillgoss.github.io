@@ -11,4 +11,6 @@ If you install Resharper 3.0.x and discover that Visual Studio 2008 Beta 2 hasn'
 
 `C:\WINDOWS\system32\msiexec.exe /i <full path to installer file>.msi VSVERSION=9.`
 
-Originall posted at http://geekswithblogs.net/rwillgoss/archive/2007/08/12/114600.aspx
+{: .notice--primary}
+<strong>Originally posted on:</strong>  
+<http://geekswithblogs.net/rwillgoss/archive/2007/08/12/114600.aspx>{:target="_blank"}

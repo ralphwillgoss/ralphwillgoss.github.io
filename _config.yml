@@ -73,7 +73,7 @@ author:
             Cloud Architect / Lead / .Net Core, Azure, Microservices, CQRS, Event Sourcing, Distributed Systems"
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/ralphwillgoss"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -98,7 +98,7 @@ defaults:
       author_profile: true
       read_time: false
       comments: false
-      share: true
+      share: false
       related: false
       classes: wide
   # _pages

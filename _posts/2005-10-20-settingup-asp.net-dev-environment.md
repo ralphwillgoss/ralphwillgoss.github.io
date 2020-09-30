@@ -8,7 +8,7 @@ tags:
 ---
 
 I've just completed a small ebook/tutorial titled:  
-[Setting up an ASP.NET Website Development environment using Visual Studio .NET, Subversion and Windows XP](https://www.codeproject.com/Articles/15271/Setting-up-an-ASP-NET-website-development-environm).
+[Setting up an ASP.NET Website Development environment using Visual Studio .NET, Subversion and Windows XP](https://www.codeproject.com/Articles/15271/Setting-up-an-ASP-NET-website-development-environm){:target="_blank"}.
 
 It covers the following topics:
 - Setting up IIS 5.1 on Windows XP
@@ -27,4 +27,6 @@ This environment includes the ability to debug web applications locally, source 
 
 Feedback, improvements and other suggestions are welcome.
 
-originally posted on http://geekswithblogs.net/rwillgoss/archive/2005/10/20/57506.aspx
+{: .notice--primary}
+<strong>Originally posted on:</strong>  
+<http://geekswithblogs.net/rwillgoss/archive/2005/10/20/57506.aspx>{:target="_blank"}

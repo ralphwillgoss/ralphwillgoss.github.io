@@ -9,4 +9,6 @@ categories:
 
 John 1:1
 
-originally posted on http://geekswithblogs.net/rwillgoss/archive/2005/07/09/45778.aspx
+{: .notice--primary}
+<strong>Originally posted on:</strong>  
+<http://geekswithblogs.net/rwillgoss/archive/2005/07/09/45778.aspx>{:target="_blank"}

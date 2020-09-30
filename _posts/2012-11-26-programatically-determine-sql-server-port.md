@@ -48,4 +48,6 @@ END
 GO
 ```
 
-Originally posted on http://geekswithblogs.net/rwillgoss/archive/2012/11/26/programatically-determine-which-port-a-sql-server-is-running-on.aspx
+{: .notice--primary}
+<strong>Originally posted on:</strong>  
+<http://geekswithblogs.net/rwillgoss/archive/2012/11/26/programatically-determine-which-port-a-sql-server-is-running-on.aspx>{:target="_blank"}
