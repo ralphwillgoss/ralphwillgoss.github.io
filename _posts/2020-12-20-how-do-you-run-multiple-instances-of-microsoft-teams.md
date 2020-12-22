@@ -19,6 +19,9 @@ This feature is being worked on and is due [Feb 2021](https://www.microsoft.com/
 ## <strong>Script</strong> 
 This script allows you to have many instances of the Teams app running at once with the full functionality in all. Each instance has its own state persistence, so it will remember the Teams account you last selected and any customisations you've done for that account, e.g. backgrounds.
 
+I modified the original so that all my Teams profiles are stored in the same place, which is `%APPDATA%`  
+The original script stored the profile in `%LOCALAPPDATA%\Microsoft\Teams\CustomProfiles\`  
+
 ```bat
 `The A Team.cmd`
 
@@ -29,12 +32,14 @@ SET MSTEAMS_PROFILE=%~n0
 ECHO - Using profile "%MSTEAMS_PROFILE%"
 
 SET "OLD_USERPROFILE=%USERPROFILE%"
-SET "USERPROFILE=%LOCALAPPDATA%\Microsoft\Teams\CustomProfiles\%MSTEAMS_PROFILE%"
+SET "USERPROFILE=%APPDATA%\Microsoft\Teams_%MSTEAMS_PROFILE%"
 
 ECHO - Launching MS Teams with profile %MSTEAMS_PROFILE%
 cd "%OLD_USERPROFILE%\AppData\Local\Microsoft\Teams"
 "%OLD_USERPROFILE%\AppData\Local\Microsoft\Teams\Update.exe" --processStart "Teams.exe"
 ```
+If your interested in the difference between `%APPDATA%` and `%LOCALAPPDATA%` [read here](https://www.thewindowsclub.com/local-localnow-roaming-folders-windows-10).
+
 
 ## <strong>System Requirements</strong> 
 Its worth mentioning that Teams is an [Electron App](https://www.electronjs.org/), so it can be resource hungry - particulary on lower end machines.   
