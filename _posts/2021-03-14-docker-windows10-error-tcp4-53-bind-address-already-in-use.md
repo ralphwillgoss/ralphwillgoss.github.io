@@ -1,5 +1,5 @@
 ---
-title: "Docker returning error starting userland proxy: listen tcp4 0.0.0.0:53: bind: address already in use"
+title: "Why is Docker returning the error - listen tcp4 0.0.0.0:53: bind: address already in use?"
 date: 2021-03-14
 categories:
   - windows10 docker pihole
@@ -17,7 +17,7 @@ ERROR: for pihole  Cannot start service pihole: driver failed programming extern
 Error starting userland proxy: listen tcp4 0.0.0.0:53: bind: address already in use
 ```
 
-I had a quick look to see what was using port 53.
+I had a quick look to see what was using port 53:
 ```shell
 netstat -ano | findStr "53"
   TCP    0.0.0.0:5357           0.0.0.0:0              LISTENING       4
@@ -40,4 +40,4 @@ Looking at task manager we discover the process is the **Internet Connection Sha
 ![Task Manager](/assets/images/posts/docker-dns/task-manager.png)
 
 This has been raised on github, with the cause pointing to some issues with DNS port binding:  
-https://github.com/docker/for-win/issues/10601
+[https://github.com/docker/for-win/issues/10601](https://github.com/docker/for-win/issues/10601)
