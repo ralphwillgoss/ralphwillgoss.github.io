@@ -1,11 +1,14 @@
 ---
 title: "Why is Docker returning the error - listen tcp4 0.0.0.0:53: bind: address already in use?"
 date: 2021-03-14
+last_modified_at: 2021-03-17
 categories:
   - windows10 docker pihole
 tags:
   - windows10 docker pihole
 ---
+{: .notice--success}
+<strong>Update:</strong> The issue is now fixed and available in [Docker v3.2.2](https://www.docker.com/products/docker-desktop)
 
 I recently went to upgrade [pi-hole](https://pi-hole.net/) to its latest version.  
 I noticed Docker for Windows needed an update, so I updated that first and then pulled the latest `pi-hole` image.  
