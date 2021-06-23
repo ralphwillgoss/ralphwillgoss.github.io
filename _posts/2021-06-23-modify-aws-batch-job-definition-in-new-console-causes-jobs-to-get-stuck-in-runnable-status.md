@@ -10,8 +10,8 @@ tags:
 I provision all my infrastructure using [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code), in this case [AWS CloudFormation](https://aws.amazon.com/cloudformation/).  
 There are times though where I will use the GUI, in this case the AWS Console, to tweak things to help with experiments and iteration speed.  
 
-I recently made a change to an AWS Batch Job Definition which inadvertedly caused all my jobs to get stuck in "Runnable" status.  
-Job getting stuck in a "Runnable" status is a known issue with AWS Batch and there's a [AWS guide to trouble shooting it](https://aws.amazon.com/premiumsupport/knowledge-center/batch-job-stuck-runnable-status/).  
+I recently made a change to an AWS Batch Job Definition which inadvertedly caused all my jobs to get stuck in _Runnable_ status.  
+Batch Jobs getting stuck in a _Runnable_ status is a known issue with AWS Batch and there's a [AWS guide to trouble shooting it](https://aws.amazon.com/premiumsupport/knowledge-center/batch-job-stuck-runnable-status/).  
 
 However, I did not expect changing some container path mappings in a job definition, to cause any issues.  
 After sometime trouble shooting, I discovered a bug in the New Batch console UI.  
@@ -40,7 +40,7 @@ The fix I discovered was to **Create a new Revision** using the Old Batch consol
 
 Next, I saw EC2 provisioning an instance for my jobs that were stuck and eventually they were executed successfully.
 
-Bug reported on the [AWS Batch Forums]().
+Bug reported on the [AWS Batch Forums](https://forums.aws.amazon.com/thread.jspa?threadID=342189).
 
 {: .notice--primary}
 <strong>References:</strong>  
