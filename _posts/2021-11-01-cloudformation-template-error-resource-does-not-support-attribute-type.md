@@ -21,7 +21,7 @@ However, running this will produce the following error:
 message: 'Template error: resource S3Bucket does not support attribute type BucketName in Fn::GetAtt',
 ```
 
-# Solution - using !Ref vs !GetAtt
+# Solution - when to use !Ref vs !GetAtt
 Its not obvious at first but if you read the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html) on how `!Ref` works, its worth noting its behaviour is not consistent across all resources:  
 - if you use `!Ref` to refer to a [AWS::SNS::Topic](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html), it returns the `ARN` of the resource
 - if you use `!Ref` to refer to a [AWS::S3::Bucket](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html), it returns the `BucketName`  
