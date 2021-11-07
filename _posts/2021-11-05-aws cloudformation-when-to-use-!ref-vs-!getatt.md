@@ -1,12 +1,16 @@
 ---
-title: "AWS CloudFormation Template error - Resource does not support attribute type"
-date: 2021-11-01
+title: "AWS CloudFormation - when to use !Ref vs !GetAtt?"
+date: 2021-11-05
 categories:
   - aws cloudformation
 tags:
   - aws cloudformation
 ---
-A common thing you might want to do when using CloudFormation, is to refer to a S3 Bucket and gets its `BucketName` as an input for another resource using `!GetAtt`. In my case, I'm setting the `BucketName` as an environment variable to be used by a Lambda:
+
+When using AWS CloudFormation and the intrinsic function`!GetAtt`, the behaviour you expect might not always work.
+
+A common thing you might to do is to refer to a S3 Bucket and gets its `BucketName` as an input for another resource.  
+In my case, I'm trying to get the `BucketName` to set it as an environment variable to be used by a Lambda:
 
 ```shell
 Environment:
@@ -18,10 +22,10 @@ Environment:
 
 However, running this will produce the following error:
 ```shell
-message: 'Template error: resource S3Bucket does not support attribute type BucketName in Fn::GetAtt',
+message: 'Template error: resource S3Bucket does not support attribute type BucketName in Fn::GetAtt'
 ```
 
-# Solution - when to use !Ref vs !GetAtt
+# Solution
 Its not obvious at first but if you read the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html) on how `!Ref` works, its worth noting its behaviour is not consistent across all resources:  
 - if you use `!Ref` to refer to a [AWS::SNS::Topic](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html), it returns the `ARN` of the resource
 - if you use `!Ref` to refer to a [AWS::S3::Bucket](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html), it returns the `BucketName`  
