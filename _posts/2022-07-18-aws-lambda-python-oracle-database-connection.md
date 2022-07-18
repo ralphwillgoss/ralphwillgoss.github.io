@@ -1,5 +1,5 @@
 ---
-title: "Connecting AWS Python Lambda to an Oracle Database, replace cx_Oracle with python-oracledb"
+title: "Connecting AWS Python Lambda to an Oracle Database, replacing cx_Oracle with python-oracledb"
 date: 2022-07-18
 categories:
   - aws lambda python oracle database cx_Oracle python-oracledb
