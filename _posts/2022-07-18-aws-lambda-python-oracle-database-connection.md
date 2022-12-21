@@ -42,6 +42,19 @@ The error `ORA-12660` indicates some [Encryption settings in `sqlnet.ora` need t
 `sqlnet.ora` settings can only be done in Thick mode with the `python-oracledb` package.  
 See the [Oracle `python-oracledb` documentation on the `sqlnet.ora`](https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html#optional-oracle-net-configuration-files), on how this can be set.  
 
+## Error "Runtime.ImportModuleError: Unable to import module 'src': /lib64/libc.so.6: version `GLIBC_2.28' not found"
+If you receive the following error, you need to look at what version of the cryptography library you are using:
+```python
+[ERROR] Runtime.ImportModuleError: Unable to import module 'src': /lib64/libc.so.6: version `GLIBC_2.28' not found (required by /var/task/cryptography/hazmat/bindings/_rust.abi3.so)
+Traceback (most recent call last):
+```
+This is a known issue with the `cryptography` package if you upgrade from `37.x` vs `38.x`.  
+There is more information on their github issue [Add FAQ entry how to download and provide AWS Lambda bundle](https://github.com/pyca/cryptography/issues/6391).
+
+## Error "DPI-1047: Cannot locate a 64-bit Oracle Client library: file too short"
+This error occured when running a docker image and trying to connect to the oracle database.  
+This happened to me as I was transfering some files, while testing packaging from a Windows machine to a Linux machine, and the symbolic links got removed.  
+I got the hint from another user who had similar issues but with the [node-oracledb package](https://github.com/oracle/node-oracledb/issues/1059)
 
 {: .notice--primary}
 <strong>References:</strong>  
