@@ -16,7 +16,7 @@
 title: "Cloud, Code and Coffee"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Cloud Architect / Lead / .Net Core, Azure, Microservices, CQRS, Event Sourcing, Distributed Systems
+  Cloud Architect /.Net Core, Python, Azure, AWS, CQRS, Event Sourcing, Distributed Systems
 github_username: ralphwillgoss
 minimal_mistakes_skin: default
 search: true
@@ -70,7 +70,7 @@ author:
   name   : "Ralph Willgoss"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Cloud, Code and Coffee<br/><br/>
-            Cloud Architect / Lead / .Net Core, Azure, Microservices, CQRS, Event Sourcing, Distributed Systems"
+            Cloud Architect /.Net Core, Python, Azure, AWS, CQRS, Event Sourcing, Distributed Systems"
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
