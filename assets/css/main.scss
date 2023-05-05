@@ -9,25 +9,12 @@ $text-color: black;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-html {
-    font-size: 14px;
-  
-    @include breakpoint($medium) {
-      font-size: 16px;
-    }
-  
-    @include breakpoint($large) {
-      font-size: 16px;
-    }
-  
-    @include breakpoint($x-large) {
-      font-size: 16px;
-    }
-  }
-
+.page__content {
+  font-size: 0.8em;
+}
 
 h1 {
-    font-size: 1.2em;
+  font-size: 1.0em;
 }
 
 h2, .archive__subtitle {
@@ -35,7 +22,7 @@ h2, .archive__subtitle {
 }
 
 h2, .archive__item {
-  font-size: 1.0em;
+  font-size: 0.9em;
   font-weight: normal;
 }
 

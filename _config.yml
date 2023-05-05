@@ -71,16 +71,26 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Cloud, Code and Coffee<br/><br/>
             Cloud Architect /.Net Core, Python, Azure, AWS, CQRS, Event Sourcing, Distributed Systems"
+  location: "London, UK"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ralphwillgoss"
-    - label: "Website"
+    - label: "Company Website"
       icon: "fas fa-fw fa-link"
       url: "http://digitalsuperglue.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ralphwillgoss"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ralphwillgoss"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/743/ralph-willgoss"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss-square"
+      url: "https://ralphwillgoss.github.io/feed.xml"
 
 footer:
   links:
