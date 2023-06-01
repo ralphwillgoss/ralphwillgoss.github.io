@@ -34,6 +34,8 @@ kramdown:
     block:
       line_numbers: false
 github: [metadata] # Added this to avoid the "No GitHub API authentication could be found. Some fields may be missing or have incorrect data." warning when starting Jekyll.
+feed:
+  posts_limit: 200
 
 # Outputting
 permalink: /blog/:year/:month/:day/:title
