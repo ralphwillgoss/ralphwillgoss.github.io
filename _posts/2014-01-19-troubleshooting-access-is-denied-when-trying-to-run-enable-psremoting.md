@@ -42,33 +42,7 @@ Steps to fix:
     select Windows Remote Management Mode(HTTP-In)  
     >> Click Next  
     >> Allow the connection  
-    >> Finish  
-
-
-{: .notice--info}
-<strong>Trouble Shooting References:</strong>  
-Here's a list of useful resources for debugging this, which I used before I discovered the above fix.  
-<br/>
-Check that your account is in the Local Administrators group: ```powershell> whoami /all```
-<br/>
-[Powershell team - Enable PSRemoting](http://blogs.msdn.com/b/powershell/archive/2009/04/30/enable-psremoting.aspx) (4 common trouble shooting steps)  
-[How to run powershell commands on remote computers](http://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers) (Domain vs Workgroup setup)  
-<br/>
-Other Topics:  
-Trying to setup PSRemoting on SharePoint?  
-[Using PowerShell remoting technologies to manage a SharePoint farm](http://blogs.msdn.com/b/besidethepoint/archive/2010/05/26/powershell-remoting-for-sharepoint.aspx)  
-<br/>
-Trying to setup PSRemoting on Windows XP?  
-[Error enabling PSRemoting in Windows XP SP3](https://social.technet.microsoft.com/Forums/windowsserver/en-US/e1eabe4c-0796-420e-b03e-dffc71760b8d/error-enabling-remoting-in-winxp-sp3?forum=winserverpowershell&ranMID=24542&ranEAID=TnL5HPStwNw&ranSiteID=TnL5HPStwNw-jdIGdLg50bgZliUk5iQscw&epi=TnL5HPStwNw-jdIGdLg50bgZliUk5iQscw&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=(ir__ybhseollh0kfrlt1kk0sohz30m2xjikpgw6ccuiu00)(7593)(1243925)(TnL5HPStwNw-jdIGdLg50bgZliUk5iQscw)()&irclickid=_ybhseollh0kfrlt1kk0sohz30m2xjikpgw6ccuiu00)  
-<br/>
-Are you setting up PSRemoting on a non English computer? - change it to English  
-[Reference 1](http://go.skimresources.com/?id=51334X1255744&xs=1&isjs=1&url=http%3A%2F%2Fsocial.technet.microsoft.com%2FForums%2Fscriptcenter%2Fen-US%2Fa1132146-575b-43c5-bcf0-fe14ad4bbb6a%2Fenablepsremoting-fails-access-denied&xguid=01DGFDC89BAZ9WS1KEMYR16TQJ&xuuid=58a982a0103b8921bc93df804b42d735&xsessid=&xcreo=0&xed=0&sref=http%3A%2F%2Fgeekswithblogs.net%2Frwillgoss%2Farchive%2F2014%2F01%2F19%2F155231.aspx&pref=http%3A%2F%2Fgeekswithblogs.net%2Frwillgoss%2Farchive%2F2014%2F01.aspx&xtz=0&jv=3.21.7-stackpath&bv=2.5.1) - lanuage not specified<br/>
-[Reference 2](https://social.technet.microsoft.com/Forums/windowsserver/en-US/e1eabe4c-0796-420e-b03e-dffc71760b8d/error-enabling-remoting-in-winxp-sp3?forum=winserverpowershell&ranMID=24542&ranEAID=TnL5HPStwNw&ranSiteID=TnL5HPStwNw-.X9uCtnjnNkZYWPVoHrlIg&epi=TnL5HPStwNw-.X9uCtnjnNkZYWPVoHrlIg&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=(ir__ybhseollh0kfrlt1kk0sohz30m2xjikpi96ccuiu00)(7593)(1243925)(TnL5HPStwNw-.X9uCtnjnNkZYWPVoHrlIg)()&irclickid=_ybhseollh0kfrlt1kk0sohz30m2xjikpi96ccuiu00) - Spanish/German  
-<br/>
-Are you using VirtualBox and trying to setup PSRemoting?  
-[Virtualbox and needing to enable enable CredSSP](http://werepoint.blogspot.co.uk/2012/03/setting-up-ps-remoting-for-all-that.html)  
-[VirtualBox and setting up PSRemoting gets access denied error](http://powershell.com/cs/forums/t/8167.aspx)  
-
+    >> Finish 
 
 {: .notice--primary}
 <strong>Originally Answered on:</strong>  
@@ -81,4 +55,4 @@ Server Fault
 [Enable-PSRemoting on Windows Server 2008 R2 error](http://serverfault.com/questions/530903/enable-psremoting-on-windows-server-2008-r2-error/568229#568229)  
 <br/>
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2014/01/19/155231.aspx>
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200814113120/http://geekswithblogs.net/rwillgoss/archive/2014/01/19/155231.aspx){:target="_blank"}

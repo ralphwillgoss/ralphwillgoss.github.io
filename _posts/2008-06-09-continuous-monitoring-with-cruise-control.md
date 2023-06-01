@@ -15,4 +15,4 @@ You could find all these bits and pieces on the Internet but put together I thou
 
 {: .notice--primary}
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2008/06/09/continuous.monitoring.with.cruisecontrol.net.aspx>{:target="_blank"}
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200808192636/http://geekswithblogs.net/rwillgoss/archive/2008/06/09/continuous.monitoring.with.cruisecontrol.net.aspx){:target="_blank"}

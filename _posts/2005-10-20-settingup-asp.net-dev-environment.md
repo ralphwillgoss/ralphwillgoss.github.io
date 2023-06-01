@@ -1,5 +1,5 @@
 ---
-title: "Setting up an ASP.NET Website Development environment using Visual Studio .NET, Subversion and Windows XP"
+title: "Setting up an ASP.NET Development environment using Visual Studio .NET, Subversion and Windows XP"
 date: 2005-10-20
 categories:
   - geekswithblogs
@@ -29,4 +29,4 @@ Feedback, improvements and other suggestions are welcome.
 
 {: .notice--primary}
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2005/10/20/57506.aspx>{:target="_blank"}
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200731191452/http://geekswithblogs.net/rwillgoss/archive/2005/10/20/57506.aspx){:target="_blank"}

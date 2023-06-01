@@ -1,5 +1,5 @@
 ---
-title: "Setting up an ASP.NET Website Development environment using Visual Studio .NET, Subversion and Windows XP"
+title: "Setting up an ASP.NET Development environment [Updated]"
 date: 2006-08-23
 categories:
   - geekswithblogs
@@ -15,4 +15,4 @@ Unfortuneately the formatting hasn't ported over very well to the code project s
 
 {: .notice--primary}
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2006/08/23/88895.aspx>{:target="_blank"}
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200801000717/http://www.geekswithblogs.net/rwillgoss/archive/2006/08/23/88895.aspx){:target="_blank"}

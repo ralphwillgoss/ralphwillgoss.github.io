@@ -27,4 +27,4 @@ UserID = iif(request("userid") = "", -1, request("userid"))
 
 {: .notice--primary}
 <strong>Originally posted on:</strong>  
-[DevX](http://www.devx.com/DevX/Tip/17670){:target="_blank"}
+[DevX c/o archive.org](https://web.archive.org/web/20060518102926/http://www.devx.com/DevX/Tip/17670){:target="_blank"}

@@ -13,4 +13,4 @@ If you install Resharper 3.0.x and discover that Visual Studio 2008 Beta 2 hasn'
 
 {: .notice--primary}
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2007/08/12/114600.aspx>{:target="_blank"}
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200804040303/http://geekswithblogs.net/rwillgoss/archive/2007/08/12/114600.aspx){:target="_blank"}

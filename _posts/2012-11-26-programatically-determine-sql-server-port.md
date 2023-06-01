@@ -50,4 +50,4 @@ GO
 
 {: .notice--primary}
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2012/11/26/programatically-determine-which-port-a-sql-server-is-running-on.aspx>{:target="_blank"}
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200926121324/http://geekswithblogs.net/rwillgoss/archive/2012/11/26/programatically-determine-which-port-a-sql-server-is-running-on.aspx){:target="_blank"}

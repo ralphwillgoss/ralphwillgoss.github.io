@@ -61,4 +61,4 @@ Restart-WebAppPool
 
 {: .notice--primary}
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2012/11/25/how-do-i-recycle-an-iis-app-pool-with-powershell.aspx>{:target="_blank"}
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200808192711/http://geekswithblogs.net/rwillgoss/archive/2012/11/25/how-do-i-recycle-an-iis-app-pool-with-powershell.aspx){:target="_blank"}

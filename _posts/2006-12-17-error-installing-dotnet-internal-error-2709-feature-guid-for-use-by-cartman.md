@@ -21,4 +21,4 @@ Just run the tool and it cleans up everything, my install then proceded flawless
 Original fix: <http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=9409&SiteID=1>{:target="_blank"}  
 <br/>
 <strong>Originally posted on:</strong>  
-<http://geekswithblogs.net/rwillgoss/archive/2006/12/17/101385.aspx>{:target="_blank"}
+[geekswithblogs.net c/o archive.org](https://web.archive.org/web/20200803100505/http://geekswithblogs.net/rwillgoss/archive/2006/12/17/101385.aspx){:target="_blank"}
