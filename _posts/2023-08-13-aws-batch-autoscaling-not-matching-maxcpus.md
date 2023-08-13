@@ -1,6 +1,6 @@
 ---
 title: "Why are AWS Batch jobs stuck in the RUNNABLE status, even after an increase in MaxvCpus?"
-date: 2023-08-10
+date: 2023-08-13
 categories:
   - aws batch ec2
 tags:
