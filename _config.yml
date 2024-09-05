@@ -134,6 +134,6 @@ defaults:
 #  path: /year-archive/
 
 analytics:
-  provider               : "google"
+  provider               : "google-gtag"
   google:
-    tracking_id          : UA-90282-1
+    tracking_id          : G-W7W0Q7JFQ0
