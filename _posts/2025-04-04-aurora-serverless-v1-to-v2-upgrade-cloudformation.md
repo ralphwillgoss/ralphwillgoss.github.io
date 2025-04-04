@@ -11,7 +11,7 @@ When migrating your **Aurora Postgres Serverless** from **v1** to **v2**, **AWS*
    ["Migrating to Aurora Serverless v2"](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.upgrade.html#aurora-serverless-v2.upgrade-from-serverless-v1-procedure).
 
 As of March 31st 2025, AWS had noted that they were going to begin automatically migrating `Resource`'s from **v1** to **v2**.  
-This may catch some people out if they are using **CloudFormation (CF)**, as at the time of writing this upgrade is not ompatible with the **CF** you have in source control.
+This may catch some people out if they are using **CloudFormation (CF)**, as at the time of writing this upgrade is not compatible with the **v1** **CF** you have in source control.
 
 After following the [AWS Aurora Serverless V2 upgrade guide](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.upgrade.html#aurora-serverless-v2.upgrade-from-serverless-v1-procedure), even if you match your **CF** to what [drift detection](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/detect-drift-stack.html) shows you, when you perform an update you will see the following error:
 ``` yaml
@@ -29,7 +29,7 @@ While the process does an in place upgrade of the database, there are a few oper
 - Ensure you have the appropriate database backups
   - The upgrade process creates a DB snapshot, as part of the migration process
 - The [default port for Aurora Postgres](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-port) **v1** is `5432`
-   - If not explicitly set in your **CF**, this has changed with **v2** to port `3306`, when using the new `EngineMode:provisioned`
+   - If not explicitly set in your **CF**, this has changed with **v2** to port `3306`, when using the new `EngineMode:provisioned` for **v2**
 - The migration process does not change the `master` database password
    - If you are setting this using **CF**, dependencies may inadvertedly cause an update to it
 
@@ -37,7 +37,7 @@ While the process does an in place upgrade of the database, there are a few oper
 The upgrade paths differ considerably depending on the version of the database you are using.  
 It's well documented but does require careful reading.
 
-As I'm running Postgres `v13.x`, the initial process is very easy and I just followed the instructions under the guide for the section: ["To upgrade an Aurora Serverless v1 cluster running Aurora PostgreSQL version 13"](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.upgrade.html#aurora-serverless-v2.upgrade-from-serverless-v1-procedure)
+As I'm running Postgres `v13.x`, the initial process is very easy and I just followed the instructions under the guide for the section: ["To upgrade an Aurora Serverless v1 cluster running Aurora PostgreSQL version 13"](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.upgrade.html#aurora-serverless-v2.upgrade-from-serverless-v1-procedure).
 
 Here are my additional notes to the provided guide:
 
@@ -50,7 +50,7 @@ Here are my additional notes to the provided guide:
    - Use the guide to match your current instance `Max` and `Min`
 
 3. "Fail over to the Aurora Serverless ..."  
-   - When failing over there some text is displayed in the AWS Console to this occuring but it can be missed.  
+   - When failing over there some text is displayed in the AWS Console to this occurring but it can be missed.  
      Watch for your new `v2 serverless` instance to become the `writer`.
 
 # Updating the stack using Infrastructure Composer
@@ -127,7 +127,7 @@ Here are my additional notes to each section of the **AWS** guide:
    **Replace hard coded references with original CF references**  
     Once the resources are imported successfully, update the stack and replace the references that we hard coded in step `2` with their original dynamic **CF** reference.
     - Use the `Validate` button and then the `Update template` button to save the CF, then apply the changes
-    - Once completed perform a stack drift detection, and you should see no differences
+    - Once completed perform a [stack drift detection](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/detect-drift-stack.html), and you should see no differences
 
 4. Add a new `DBInstance` and deploy updated **CF**  
    In step **3** your source controlled **CF** should have been updated to match what we have now in AWS.  
@@ -138,7 +138,7 @@ Here are my additional notes to each section of the **AWS** guide:
 5. Remove manually created additional instances  
    As part of the **Migrating to Aurora Serverless v2** upgrade process, some additional instances would have been created. Before removing any, ensure you have failed over to the new instance created by the **CF** in step `4`.
 
-Your Aurora Serverless V1 is now migrated to V2 and your CloudFormation should now match this upgrade.  
+Your Aurora Serverless **v1** is now migrated to **v2** and your **CloudFormation** should now match this upgrade.  
 Feedback on this guide is welcome.
 
 {: .notice--primary}  
